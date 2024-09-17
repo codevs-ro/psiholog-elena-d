@@ -1,7 +1,12 @@
+import HomeFirst from "./components/HomePage/HomeFirst";
+import HomeSecond from "./components/HomePage/HomeSecond";
+import Contact from "./components/Contact";
 const HomePage = () => {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1> Home Page</h1>
+    <main>
+      <HomeFirst />
+      <HomeSecond />
+      <Contact />
     </main>
   );
 };
