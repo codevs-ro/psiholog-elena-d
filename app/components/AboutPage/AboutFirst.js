@@ -6,7 +6,7 @@ const AboutFirst = () => {
       {/* div imagine pc */}
       <div className="hidden md:block md:w-5/12">
         <Image
-          src="/about-img.svg"
+          src="/about-img.png"
           width={800}
           height={800}
           priority
@@ -22,7 +22,7 @@ const AboutFirst = () => {
           priority
           width={800}
           height={800}
-          src="/about-img.svg"
+          src="/about-img.png"
           alt="Poza Lucrari"
           className="md:hidden my-8 w-10/12 mx-auto"
         />

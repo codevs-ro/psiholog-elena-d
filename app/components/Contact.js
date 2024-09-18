@@ -7,7 +7,7 @@ const Contact = () => {
       {/* div imagine pc */}
       <div className="md:w-6/12 md:block hidden">
         <Image
-          src="/contact-img.svg"
+          src="/contact-img.png"
           priority
           width={800}
           height={800}
@@ -20,7 +20,7 @@ const Contact = () => {
           Fă din viața ta arta ta!
         </h1>
         <Image
-          src="/contact-img.svg"
+          src="/contact-img.png"
           priority
           width={800}
           height={800}

@@ -9,9 +9,9 @@ const HomeFirst = () => {
           priority
           width={800}
           height={800}
-          src="/hero-img.svg"
+          src="/hero-img.png"
           alt="Poza Elena Dordea"
-          className="w-10/12"
+          className="w-8/12"
         />
       </div>
       {/* div content */}
@@ -24,7 +24,7 @@ const HomeFirst = () => {
           priority
           width={800}
           height={800}
-          src="/hero-img.svg"
+          src="/hero-img.png"
           alt="Poza Elena Dordea"
           className="md:hidden my-8 w-10/12 mx-auto"
         />

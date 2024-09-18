@@ -9,7 +9,7 @@ const AboutSecond = () => {
           priority
           width={800}
           height={800}
-          src="/kit-img.svg"
+          src="/kit-img.png"
           alt="Poza Kit"
           className="w-10/12"
         />
@@ -23,7 +23,7 @@ const AboutSecond = () => {
           priority
           width={800}
           height={800}
-          src="/kit-img.svg"
+          src="/kit-img.png"
           alt="Poza Kit"
           className="md:hidden my-8 w-10/12 mx-auto"
         />
