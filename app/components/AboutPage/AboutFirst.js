@@ -11,10 +11,11 @@ const AboutFirst = () => {
           height={800}
           priority
           alt="Poza Lucrari"
+          className="slide-left"
         />
       </div>
       <div className="md:w-5/12 text-white">
-        <h1 className="text-2xl md:text-3xl font-semibold">
+        <h1 className="text-2xl md:text-3xl font-semibold slide-in">
           Întâlnește-ți adevăratul eu prin art terapie: redescoperă pacea
           interioară
         </h1>
@@ -24,9 +25,9 @@ const AboutFirst = () => {
           height={800}
           src="/about-img.png"
           alt="Poza Lucrari"
-          className="md:hidden my-8 w-10/12 mx-auto"
+          className="md:hidden my-8 w-10/12 mx-auto slide-in"
         />
-        <p className="md:mt-8 md:mb-12 mt-4 mb-6">
+        <p className="md:mt-8 md:mb-12 mt-4 mb-6 slide-in">
           Creativitatea este o poartă spre lumea ta interioară, unde fiecare
           gand și emoție pot fi exprimate. Cu ajutorul terapiei și al unui Kit
           special pregătit pentru tine, vei învăța să dai o forma trairilor

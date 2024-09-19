@@ -5,12 +5,14 @@ const TerapieSecond = () => {
     <div className=" py-6 md:py-12  w-full px-8 md:px-16 lg:px-32 xl:px-36 2xl:px-96 bg-gray-50">
       {/* Individuala */}
       <div className="w-full">
-        <h1 className="font-semibold text-black text-2xl">Individuală</h1>
-        <p className="w-full text-black mt-8 mb-16">Text</p>
+        <h1 className="font-semibold text-black text-2xl slide-in">
+          Individuală
+        </h1>
+        <p className="w-full text-black mt-8 mb-16 slide-in">Text</p>
       </div>
       {/* Abonament */}
       <div className="w-full">
-        <h1 className="font-semibold text-black text-2xl mb-8">
+        <h1 className="font-semibold text-black text-2xl mb-8 slide-in">
           Prin Abonament
         </h1>
         <div className="md:w-8/12 mx-auto flex items-center gap-12 justify-between md:flex-row flex-col">

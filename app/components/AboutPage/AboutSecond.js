@@ -11,12 +11,12 @@ const AboutSecond = () => {
           height={800}
           src="/kit-img.png"
           alt="Poza Kit"
-          className="w-10/12"
+          className="w-10/12 slide-right"
         />
       </div>
       {/* div content */}
       <div className="md:w-5/12">
-        <h1 className="text-2xl md:text-3xl font-semibold">
+        <h1 className="text-2xl md:text-3xl font-semibold slide-in">
           Kitul tău: instrument perfect pentru exprimare emoțională
         </h1>
         <Image
@@ -25,9 +25,9 @@ const AboutSecond = () => {
           height={800}
           src="/kit-img.png"
           alt="Poza Kit"
-          className="md:hidden my-8 w-10/12 mx-auto"
+          className="md:hidden my-8 w-10/12 mx-auto slide-in"
         />
-        <p className="md:mt-8 md:mb-12 mt-4 mb-6">
+        <p className="md:mt-8 md:mb-12 mt-4 mb-6 slide-in">
           Sesiunea ta de terapie este o experiență personalizată cu ajutorul
           Kitului. Aceasta mini trusa conține materialele necesare pentru a
           explora liber și creativ starile tale (culori, texturi variate,

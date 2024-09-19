@@ -1,13 +1,13 @@
 const TerapieFirst = () => {
   return (
     <div className=" py-24 md:py-36  w-full px-8 md:px-16 lg:px-32 xl:px-36 2xl:px-96 bg-gray-50">
-      <h1 className="text-black font-semibold mb-8 text-2xl">
+      <h1 className="slide-in text-black font-semibold mb-8 text-2xl">
         Terapie : Individuala / Abonament
       </h1>
       {/* text terapie */}
       <div className="w-full flex items-start justify-between md:flex-row flex-col gap-8">
         {/* primul div */}
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-col gap-8 slide-in">
           <p>
             Îți propun să te bucuri din toată inima, precum copiii, de spațiul
             tău privat și strict confidențial de “joacă”: fiindcă ale adulților
@@ -22,7 +22,7 @@ const TerapieFirst = () => {
           </p>
         </div>
         {/* al doilea div */}
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-col gap-8 slide-in">
           <p>
             Îmi doresc ca tu să devii un om fericit și împăcat cu tine și cu
             toți cei din jurul tău, iar pentru asta avem la dispoziție felurite

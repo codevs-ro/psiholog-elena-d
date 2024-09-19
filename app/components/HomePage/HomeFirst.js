@@ -11,12 +11,12 @@ const HomeFirst = () => {
           height={800}
           src="/hero-img.png"
           alt="Poza Elena Dordea"
-          className="w-8/12"
+          className="w-8/12 slide-left"
         />
       </div>
       {/* div content */}
       <div className="md:w-5/12">
-        <h1 className="text-2xl md:text-3xl font-semibold">
+        <h1 className="text-2xl md:text-3xl font-semibold slide-in">
           Descoperă puterea vindecătoare a artei: ghidează-ți emoțiile prin art
           terapie
         </h1>
@@ -26,19 +26,19 @@ const HomeFirst = () => {
           height={800}
           src="/hero-img.png"
           alt="Poza Elena Dordea"
-          className="md:hidden my-8 w-10/12 mx-auto"
+          className="md:hidden my-8 w-10/12 mx-auto slide-in"
         />
-        <p className="md:mt-8 md:mb-12 mt-4 mb-6">
+        <p className="md:mt-8 md:mb-12 mt-4 mb-6 slide-in">
           Explorează un spațiu sigur și creativ, unde arta devine un instrument
           de vindecare. În ședințele noastre de art terapie, vei descoperi cum
           exprimarea artistică te poate ajuta să îți înțelegi și să îți
           gestionezi emoțiile, să reduci stresul și să îți îmbunătățești starea
           de bine.
         </p>
-        <div className="flex ">
+        <div className="flex slide-in ">
           <Link
             href="/despre"
-            className="px-8 py-2 mt-8 md:w-auto text-center w-full text-white bg-teal-600 rounded-md hover:rounded-2xl transition-all ease-in-out"
+            className="px-8  py-2 mt-8 md:w-auto text-center w-full text-white bg-teal-600 rounded-md hover:rounded-2xl transition-all ease-in-out"
           >
             Află Mai Mult
           </Link>
