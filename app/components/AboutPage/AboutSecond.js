@@ -28,14 +28,14 @@ const AboutSecond = () => {
           className="md:hidden my-8 w-10/12 mx-auto slide-in"
         />
         <p className="md:mt-8 md:mb-12 mt-4 mb-6 slide-in">
-          Sesiunea ta de terapie este o experiență personalizată cu ajutorul
-          Kitului. Aceasta mini trusa conține materialele necesare pentru a
-          explora liber și creativ starile tale (culori, texturi variate,
-          diferite elemente care te vor ajuta să îți explorezi posibilitatile).
-          Fiecare element este atent ales pentru a stimula procesul tău de
-          constientizare, oferindu-ți spațiul ideal să reflectezi și să te
-          descoperi. Kitul este un partener de încredere pe drumul tău către
-          atingerea echilibrului și autocunoașterii.
+          Sesiunile tale de terapie sunt experiențe personalizate cu ajutorul
+          kitului. Această trusă conține materialele necesare pentru a explora
+          liber și creativ stările tale (culori, texturi variate, diferite
+          elemente care te vor ajuta să îți explorezi posibilitățile). Fiecare
+          element este atent selecționat pentru a stimula procesul tău de
+          conștientizare, oferindu-ți spațiul ideal să reflectezi și să te
+          descoperi. Kitul este un partener de încredere pe acest drum, de aceea
+          vei primi indicații despre ce materiale va conține.
         </p>
       </div>
     </div>

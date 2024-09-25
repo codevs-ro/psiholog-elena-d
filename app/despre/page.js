@@ -6,8 +6,7 @@ const AboutPage = () => {
     <main>
       <AboutFirst />
       <AboutSecond />
-
-      <Contact />
+      <Contact image="/contact-img-2.png" />
     </main>
   );
 };

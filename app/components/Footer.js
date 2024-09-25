@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="w-full bg-gray-100 px-8 py-12 flex md:flex-row flex-col items-top justify-between">
       <div className="flex flex-col md:w-3/12">
         <h3 className="font-semibold ">Psiholog Elena Dordea</h3>
-        <p className="text-sm mt-4 text-black/50">Viața ta, arta ta!</p>
+        <p className="text-sm mt-4 text-black/50">Fă din viața ta arta ta!</p>
       </div>
 
       <div className="flex flex-col md:mt-0 mt-8 md:items-center gap-2">
@@ -27,15 +27,39 @@ const Footer = () => {
         </Link>
       </div>
       <div className="flex flex-col md:mt-0 mt-8 md:items-center gap-2">
+        <h3 className="font-semibold">Articolele Mele</h3>
+        <Link
+          href="/adictii.pdf"
+          className="text-sm hover:text-red-400 transition-all "
+        >
+          Adicţiile
+        </Link>
+      </div>
+      <div className="flex flex-col md:mt-0 mt-8 md:items-center gap-2">
         <h3 className="font-semibold">Rețele Sociale</h3>
-        <Link href="/" className="text-sm hover:text-red-400 transition-all ">
+        <Link
+          href="https://www.facebook.com/share/UuJ3Pxvh1iTkbjvo/?mibextid=LQQJ4d"
+          className="text-sm hover:text-red-400 transition-all "
+        >
           Facebook
         </Link>
-        <Link href="/" className="text-sm hover:text-red-400 transition-all ">
+        <Link
+          href="https://www.instagram.com/in_trecere_pe_aici?igsh=MTFpZDEyc250YzlsdA%3D%3D&utm_source=qr"
+          className="text-sm hover:text-red-400 transition-all "
+        >
           Instagram
         </Link>
-        <Link href="/" className="text-sm hover:text-red-400 transition-all ">
+        <Link
+          href="https://www.linkedin.com/in/elena-dordea-14b2b143?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+          className="text-sm hover:text-red-400 transition-all "
+        >
           Linkedin
+        </Link>
+        <Link
+          href="https://www.tiktok.com/@e.dor.de.ea?_t=8pxETGGO1NA&_r=1"
+          className="text-sm hover:text-red-400 transition-all "
+        >
+          Tiktok
         </Link>
       </div>
       <div className="flex flex-col md:mt-0 mt-8 md:items-center gap-2">

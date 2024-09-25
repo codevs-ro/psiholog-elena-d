@@ -16,8 +16,7 @@ const AboutFirst = () => {
       </div>
       <div className="md:w-5/12 text-white">
         <h1 className="text-2xl md:text-3xl font-semibold slide-in">
-          Întâlnește-ți adevăratul eu prin art terapie: redescoperă pacea
-          interioară
+          Întâlnește-ți autenticitatea
         </h1>
         <Image
           priority
@@ -29,12 +28,12 @@ const AboutFirst = () => {
         />
         <p className="md:mt-8 md:mb-12 mt-4 mb-6 slide-in">
           Creativitatea este o poartă spre lumea ta interioară, unde fiecare
-          gand și emoție pot fi exprimate. Cu ajutorul terapiei și al unui Kit
-          special pregătit pentru tine, vei învăța să dai o forma trairilor
-          tale, deschizând drumul spre o mai bună înțelegere de Sine și spre
-          armonie. Fie că te confrunți cu stresul zilnic sau cu provocări de
-          lunga durata, terapia te ajută să găsești echilibrul, claritatea și
-          liniștea de care ai nevoie Acum si Aici.
+          gând și emoție pot fi exprimate. Cu ajutorul terapiei și al unui kit
+          special gândit de mine și pregătit de tine, vei învăța să dai o formă
+          trăirilor tale, deschizând astfel drumul spre o mai bună înțelegere de
+          sine și spre armonie. Fie că te confrunți cu stresul zilnic sau cu
+          provocări de lungă durată, terapia te ajută să îți găsești echilibrul,
+          claritatea și liniștea de care ai nevoie Acum și Aici.
         </p>
       </div>
     </div>

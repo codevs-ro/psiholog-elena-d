@@ -1,8 +1,8 @@
 const TerapieFirst = () => {
   return (
-    <div className=" py-24 md:py-36  w-full px-8 md:px-16 lg:px-32 xl:px-36 2xl:px-96 bg-gray-50">
+    <div className="py-24 md:py-36 w-full px-8 md:px-16 lg:px-32 xl:px-36 2xl:px-96 bg-gray-50">
       <h1 className="slide-in text-black font-semibold mb-8 text-2xl">
-        Terapie : Individuala / Abonament
+        Terapie: individuală sau prin abonamente
       </h1>
       {/* text terapie */}
       <div className="w-full flex items-start justify-between md:flex-row flex-col gap-8">
@@ -11,7 +11,7 @@ const TerapieFirst = () => {
           <p>
             Îți propun să te bucuri din toată inima, precum copiii, de spațiul
             tău privat și strict confidențial de “joacă”: fiindcă ale adulților
-            sunt munca și intimitatea lor, vom lucra împreună subiectele care te
+            sunt munca și relațiile lor, vom lucra împreună subiectele care te
             interesează.
           </p>
           <p>

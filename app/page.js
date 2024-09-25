@@ -6,7 +6,7 @@ const HomePage = () => {
     <main>
       <HomeFirst />
       <HomeSecond />
-      <Contact />
+      <Contact image="/contact-img-1.png" />
     </main>
   );
 };

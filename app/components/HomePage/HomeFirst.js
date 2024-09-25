@@ -15,10 +15,9 @@ const HomeFirst = () => {
         />
       </div>
       {/* div content */}
-      <div className="md:w-5/12">
+      <div className="md:w-6/12">
         <h1 className="text-2xl md:text-3xl font-semibold slide-in">
-          Descoperă puterea vindecătoare a artei: ghidează-ți emoțiile prin art
-          terapie
+          Ghidează-ți emoțiile prin creativitate
         </h1>
         <Image
           priority
@@ -29,11 +28,11 @@ const HomeFirst = () => {
           className="md:hidden my-8 w-10/12 mx-auto slide-in"
         />
         <p className="md:mt-8 md:mb-12 mt-4 mb-6 slide-in">
-          Explorează un spațiu sigur și creativ, unde arta devine un instrument
-          de vindecare. În ședințele noastre de art terapie, vei descoperi cum
-          exprimarea artistică te poate ajuta să îți înțelegi și să îți
-          gestionezi emoțiile, să reduci stresul și să îți îmbunătățești starea
-          de bine.
+          Explorează acest spațiu sigur și confidențial, unde creațiile tale
+          devin un instrument eficient de explorare. În ședințele de terapie,
+          vei descoperi cum exprimarea artistică te ajută să îți înțelegi și să
+          îți gestionezi emoțiile, să reduci stresul și să îți îmbunătățești
+          starea de bine.
         </p>
         <div className="flex slide-in ">
           <Link

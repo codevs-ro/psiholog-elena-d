@@ -1,13 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const Contact = () => {
+const Contact = (props) => {
+  const { image } = props;
   return (
     <div className="py-12 md:py-36  min-h-screen w-full px-8 md:px-16 gap-44 lg:px-32 xl:px-36 2xl:px-96 flex items-center justify-between bg-gradient-to-r from-teal-300/20 to-red-400/20">
       {/* div imagine pc */}
       <div className="md:w-6/12 md:block hidden">
         <Image
-          src="/contact-img.png"
+          src={image}
           priority
           width={800}
           height={800}
@@ -20,7 +21,7 @@ const Contact = () => {
           Fă din viața ta arta ta!
         </h1>
         <Image
-          src="/contact-img.png"
+          src={image}
           priority
           width={800}
           height={800}
@@ -28,16 +29,17 @@ const Contact = () => {
           alt="Poza Lucrari"
         />
         <p className="mt-8 mb-12">
-          Ești pregătit să începi călătoria ta către echilibru emoțional? Sunt
-          aici să te ghidez. Vrei să aflii mai multe despre Art Terapie? Sunt la
-          un click distanță.
+          Ești pregătit să începi călătoria ta către echilibru emoțional?
+          <br /> Sunt aici să te însoțesc.
+          <br /> Vrei să afli mai multe?
+          <br /> Sunt la un click distanță.
         </p>
         <div className="flex  text-center flex-col md:flex-row w-full md:w-auto gap-4">
           <Link
             className="px-8 py-2 bg-red-400 text-white border-2 border-red-400 hover:rounded-2xl rounded-md ease-in-out transition-all"
             href="/terapie"
           >
-            Descoperă Terapia
+            Descoperă
           </Link>
           <Link
             className="px-8 py-2 bg-red-400/20 border-2 border-red-400 hover:rounded-2xl rounded-md ease-in-out transition-all"

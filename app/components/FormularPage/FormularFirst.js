@@ -80,9 +80,9 @@ const Formular = () => {
           className="border-b-2 focus:outline-none border-gray-50 bg-transparent px-2"
         >
           <option>Selectează Abonamentul</option>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
+          <option value="Basic">Basic</option>
+          <option value="Premium">Premium</option>
+          <option value="Regular">Regular</option>
         </select>
         {formInfo.nume &&
           formInfo.telefon &&
@@ -104,7 +104,7 @@ const Formular = () => {
           !formInfo.obiectiv ||
           !formInfo.abonament) && (
           <p className="text-red-400 w-full text-center mt-8">
-            Completează toate campurile
+            Completează toate câmpurile
           </p>
         )}
       </form>
