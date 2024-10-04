@@ -29,10 +29,16 @@ const Footer = () => {
       <div className="flex flex-col md:mt-0 mt-8 md:items-center gap-2">
         <h3 className="font-semibold">Articolele Mele</h3>
         <Link
-          href="/adictii.pdf"
+          href="/articole/adictii"
           className="text-sm hover:text-red-400 transition-all "
         >
           Adicţiile
+        </Link>
+        <Link
+          href="/articole/nu-esti-singur"
+          className="text-sm hover:text-red-400 transition-all "
+        >
+          Nu ești singur
         </Link>
       </div>
       <div className="flex flex-col md:mt-0 mt-8 md:items-center gap-2">
@@ -68,7 +74,13 @@ const Footer = () => {
           href="mailto:elena.dordea@gmail.com?subject=Colaborare&body=Buna%20ziua%20"
           className="text-sm hover:text-red-400 transition-all "
         >
-          elena.dordea@gmail.com
+          Email{" "}
+        </Link>
+        <Link
+          href="tel:40729190001"
+          className="text-sm hover:text-red-400 transition-all "
+        >
+          Telefon
         </Link>
       </div>
     </footer>

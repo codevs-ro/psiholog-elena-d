@@ -2,7 +2,7 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 export const metadata = {
-  title: "Psiholog Elena Dordea",
+  title: "Nu esti singur - Psiholog Elena Dordea",
   description: "Fă din viața ta arta ta!",
 };
 
