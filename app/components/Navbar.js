@@ -78,10 +78,13 @@ const Navbar = () => {
               <div className="pt-1 w-full bg-white/10 mt-1"></div>
               <div className="flex flex-col gap-4 text-white text-sm">
                 <Link
-                  href="mailto:elena.dordea@gmail.com?subject=Colaborare&body=Buna%20ziua%20"
+                  href="mailto:contact.nuestisingur@gmail.com?subject=Colaborare&body=Buna%20ziua%20"
                   className="mt-4 py-2"
                 >
-                  elena.dordea@gmail.com{" "}
+                  Email{" "}
+                </Link>
+                <Link href="tel:40729190001" className="mt-4 py-2">
+                  Telefon{" "}
                 </Link>
               </div>
             </div>

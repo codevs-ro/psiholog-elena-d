@@ -90,7 +90,7 @@ const Formular = () => {
           formInfo.obiectiv &&
           formInfo.abonament && (
             <Link
-              href={`mailto:elena.dordea@gmail.com?subject=Formular Terapie&body=${encodeURIComponent(
+              href={`mailto:contact.nuestisingur@gmail.com?subject=Formular Terapie&body=${encodeURIComponent(
                 `Name: ${formInfo.nume}\nTelefon: ${formInfo.telefon}\nEmail: ${formInfo.email}\nObiectiv: ${formInfo.obiectiv}\nAbonament: ${formInfo.abonament}`
               )}`}
               className="px-8 py-2 rounded-md hover:rounded-2xl transition-all ease-in-out text-white bg-teal-600 mt-8 text-lg font-semibold text-center"
