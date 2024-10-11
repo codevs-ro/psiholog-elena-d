@@ -1,11 +1,27 @@
 import Link from "next/link";
-
+import Image from "next/image";
 const Footer = () => {
   return (
     <footer className="w-full bg-gray-100 px-8 py-12 flex md:flex-row flex-col items-top justify-between">
       <div className="flex flex-col md:w-3/12">
         <h3 className="font-semibold ">Psiholog Elena Dordea</h3>
         <p className="text-sm mt-4 text-black/50">Fă din viața ta arta ta!</p>
+        <div className="flex flex-col items-end">
+          <Link
+            href="https://blooming-solutions.ro"
+            className="mt-8 w-full flex items-center justify-start gap-2"
+          >
+            <Image
+              priority
+              src="/Blooming_Solutions_Logo.png"
+              width={40}
+              height={40}
+            ></Image>
+            <p className="font-semibold text-sm">
+              Powered by Blooming Solutions
+            </p>
+          </Link>
+        </div>
       </div>
 
       <div className="flex flex-col md:mt-0 mt-8 md:items-center gap-2">

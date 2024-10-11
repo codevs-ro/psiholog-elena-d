@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 const { default: Link } = require("next/link");
-
+import Image from "next/image";
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
   useEffect(() => {
@@ -56,37 +56,56 @@ const Navbar = () => {
           className="h-screen z-20 w-full bg-black/50 flex justify-end  fixed top-0"
           onClick={() => setMenu(!menu)}
         >
-          <div className="w-2/3 gap-12 bg-red-400 flex slide-right flex-col p-4">
-            <div className="slide-in flex items-center justify-between w-full">
-              <h3 className="font-semibold text-white">
-                Psiholog Elena Dordea
-              </h3>
-            </div>
-            <div className="slide-in flex flex-col items-left">
-              <h3 className=" text-white font-semibold">Pagini</h3>
-              <div className="pt-1 w-full bg-white/10 mt-1"></div>
-              <div className="flex flex-col gap-4 text-white text-sm">
-                <Link href="/" className="mt-4">
-                  Acasă
-                </Link>
-                <Link href="/despre">Despre</Link>
-                <Link href="/terapie">Terapie</Link>
+          <div className="w-2/3 gap-12 bg-red-400 flex justify-between slide-right flex-col p-4">
+            <div className="flex flex-col gap-8">
+              {" "}
+              <div className="slide-in flex items-center justify-between  w-full">
+                <h3 className="font-semibold text-white">
+                  Psiholog Elena Dordea
+                </h3>
+              </div>
+              <div className="slide-in flex flex-col items-left">
+                <h3 className=" text-white font-semibold">Pagini</h3>
+                <div className="pt-1 w-full bg-white/10 mt-1"></div>
+                <div className="flex flex-col gap-4 text-white text-sm">
+                  <Link href="/" className="mt-4">
+                    Acasă
+                  </Link>
+                  <Link href="/despre">Despre</Link>
+                  <Link href="/terapie">Terapie</Link>
+                </div>
+              </div>
+              <div className="slide-in flex flex-col items-left">
+                <h3 className=" text-white font-semibold">Contactare</h3>
+                <div className="pt-1 w-full bg-white/10 mt-1"></div>
+                <div className="flex flex-col gap-4 text-white text-sm">
+                  <Link
+                    href="mailto:contact.nuestisingur@gmail.com?subject=Colaborare&body=Buna%20ziua%20"
+                    className="mt-4 py-2"
+                  >
+                    Email{" "}
+                  </Link>
+                  <Link href="tel:40729190001" className="mt-4 py-2">
+                    Telefon{" "}
+                  </Link>
+                </div>
               </div>
             </div>
-            <div className="slide-in flex flex-col items-left">
-              <h3 className=" text-white font-semibold">Contactare</h3>
-              <div className="pt-1 w-full bg-white/10 mt-1"></div>
-              <div className="flex flex-col gap-4 text-white text-sm">
-                <Link
-                  href="mailto:contact.nuestisingur@gmail.com?subject=Colaborare&body=Buna%20ziua%20"
-                  className="mt-4 py-2"
-                >
-                  Email{" "}
-                </Link>
-                <Link href="tel:40729190001" className="mt-4 py-2">
-                  Telefon{" "}
-                </Link>
-              </div>
+            <div className="flex flex-col items-end text-white">
+              <Link
+                href="https://blooming-solutions.ro"
+                className="mt-8 w-full flex items-center justify-start gap-2"
+              >
+                <Image
+                  priority
+                  src="/Blooming_Solutions_Logo.png"
+                  width={40}
+                  height={40}
+                ></Image>
+                <p className="font-semibold text-sm">
+                  Powered by Blooming Solutions
+                </p>
+              </Link>
             </div>
           </div>
         </div>
