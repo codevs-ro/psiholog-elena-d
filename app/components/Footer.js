@@ -60,13 +60,13 @@ const Footer = () => {
       <div className="flex flex-col md:mt-0 mt-8 md:items-center gap-2">
         <h3 className="font-semibold">Rețele Sociale</h3>
         <Link
-          href="https://www.facebook.com/share/UuJ3Pxvh1iTkbjvo/?mibextid=LQQJ4d"
+          href="https://www.facebook.com/profile.php?id=61567712695530"
           className="text-sm hover:text-red-400 transition-all "
         >
           Facebook
         </Link>
         <Link
-          href="https://www.instagram.com/in_trecere_pe_aici?igsh=MTFpZDEyc250YzlsdA%3D%3D&utm_source=qr"
+          href="https://www.instagram.com/nuestisingur.ro/"
           className="text-sm hover:text-red-400 transition-all "
         >
           Instagram
